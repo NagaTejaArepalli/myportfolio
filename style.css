@@ -332,6 +332,9 @@ hr.solid {
     border-top: 3px solid #e4dcdc;
 }
 @media screen and (max-width:450px){
+    .education{
+        padding: 10px;
+    }
     .education .education-container .row-icon{
         padding: 0;
         align-items: center;
@@ -344,7 +347,7 @@ hr.solid {
 }
 @media screen and (max-width:900px){
     .education .education-container .row-icon{
-        padding-bottom:0px;
+        padding-bottom: 20px;
     }
 }
 
