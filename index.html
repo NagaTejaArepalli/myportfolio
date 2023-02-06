@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul class="navbar">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <!--About-->
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="col-text">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem necessitatibus veniam consequuntur. Autem quia alias iure, dolorum officia voluptatem expedita!</p>
+            </div>
+            <div class="col-image">
+                <img src="./images/about1.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <!--projects-->
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="row">
+                <div class="column">
+                    <div class="colunm-img">
+                        <img src="images/bone.jpg" alt="">
+                    </div>
+                    <div class="column-text">
+                        <h3>Bone Fracture Detection</h3>
+                        <p>A Deep CNN model of ResNet50 architecture is used to detect whether the bone is fractured or not.</p>
+                        <a href="#">Know More</a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-text">
+                        <h3>Fake Currency Detection Using Machine Learning Algorithms</h3>
+                        <p>Study various machine learning models that could detect fake currency inorder to find the optimal machine learning algorithm that gives most accurate results.</p>
+                        <a href="#">Know More</a>
+                    </div>
+                    <div class="colunm-img">
+                        <img src="images/fake.jpg" alt="">
+                    </div>
+            
+                </div>
+                <div class="column">
+                    <div class="colunm-img">
+                        <img src="images/fraud.jpg" alt="">
+                    </div>
+                    <div class="column-text">
+                        <h3>Control of Digital Banking Fraud</h3>
+                        <p>To control the digital banking fraud by adding extra application security.</p>
+                        <a href="#">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--skills-->
+    <section class="skills" id="skills">
+        <h1 class="heading">Skills</h1>
+        <div class="box-container container" style="padding-top: 40px;">
+        <div class="box">
+            <div class="icon">
+                <i class="fa-brands fa-python"></i>
+            </div>
+            <h3>PYTHON</h3>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon">
+                <i class="fa-solid fa-c"></i>
+            </div>
+            <h3>C</h3>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon">
+                <i class="fa-brands fa-java"></i>
+            </div>
+            <h3>Java</h3>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+        </div>       
+    </section>
+
+    <!--education-->
+    <section class="education" id="education">
+        <div class="heading">
+            <h3>Education</h3>
+        </div>
+        <div class="education-container">
+            <div class="row-icon">
+                <i class="fa-sharp fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="row-edu">
+                <div class="colunm-edu">
+                    <h4>B.TECH</h4>
+                    <h5>Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology</h5>
+                    <span>Grade:9.39/10</span>
+                </div>
+                <hr class="solid">
+                <div class="colunm-edu">
+                    <h4>INTER</h4>
+                    <h5>Narayana Junior College</h5>
+                    <span>Grade:9.88/10</span>
+                </div>
+                <hr class="solid">
+                <div class="colunm-edu">
+                    <h4>SCHOOL</h4>
+                    <h5>Swathi High School</h5>
+                    <span>Grade:9.5/10</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contact">
+        <div class="contact-info">
+            <div><i class="fa-solid fa-location-dot"></i>8-77,Vellaturu,Guntur,AP</div>
+            <div><i class="fa-solid fa-envelope"></i>nagatejaarepalli@gmail.com</div>
+            <div><i class="fa-solid fa-phone"></i>+91 9873871210</div>
+        </div>
+        <div class="contact-form">
+            <h2>Contact</h2>
+            <form class="contact" action="">
+                <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                <input type="email" name="email" class="text-box" placeholder="Your Email">
+                <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+                <input type="submit" class="send-btn" name="submit">
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-container">
+            <h5><i class="fa-regular fa-copyright"></i>Copy rights: Designed by Naga Teja | Pravishree designs</h5>
+        </div>
+</section>
+</body>
+</html>
