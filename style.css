@@ -368,6 +368,7 @@ hr.solid {
     align-items: center;
 }
 .contact-info{
+    align-items: center;
     color: #fff;
     max-width: 500px;
     line-height: 65px;
@@ -447,6 +448,13 @@ hr.solid {
 @media screen and (max-width:950px) {
     .contacts{
         flex-direction: column;
+        padding: 10px;
+    }
+    .contact-info{
+        color: #fff;
+        max-width: 500px;
+        padding: 10px;
+        line-height: 65px;
     }
     .contact-form, .contact-info{
         margin:30px 50px;
@@ -457,6 +465,11 @@ hr.solid {
     .contact-form .text-box{
         width: 100%;
     } 
+}
+@media screen and (max-width:950px) {
+    .contact-info{
+        font-size: 12px;
+    }
 }
 .footer{
     background: var(--bg-color);
